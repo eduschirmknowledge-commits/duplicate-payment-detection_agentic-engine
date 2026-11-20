@@ -1,0 +1,73 @@
+# Core framework
+langchain
+langchain-core
+langchain-community
+langgraph
+langsmith
+
+# LLM providers (keep the ones you'll use)
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+langchain-groq
+
+# SQL agent
+sqlalchemy
+pandas
+pymysql
+psycopg2-binary
+
+# CrewAI
+crewai
+crewai-tools
+
+# Utilities
+python-dotenv
+pydantic
+chromadb
+pypdf
+
+# Core LangChain & LangGraph orchestration
+langchain
+langchain-core
+langchain-community
+langgraph
+langgraph-checkpoint-sqlite
+langsmith
+
+# LLM providers (optional; unused unless keys are configured)
+langchain-openai
+langchain-anthropic
+langchain-google-genai
+langchain-groq
+
+# Local Embeddings & Vector Store (Zero-cost CPU inference + Memory)
+chromadb
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+
+# SQL, Tabular Processing & Excel / FBL1N Staging
+sqlalchemy
+pandas
+numpy
+openpyxl
+pymysql
+psycopg2-binary
+
+# Deterministic Fuzzy Matching (Invoice ID & Vendor Name Variations)
+rapidfuzz
+
+# Document & PDF Parsing
+pypdf
+pdfplumber
+
+# Observability & Local Tracing (Arize Phoenix)
+arize-phoenix
+openinference-instrumentation-langchain
+
+# UI & Core Utilities
+streamlit
+python-dotenv
+pydantic
+tiktoken

@@ -1,0 +1,31 @@
+
+# Virtual Environment
+.venv/
+.venv*/
+venv/
+ENV/
+
+# Secrets & Environment Variables (CRITICAL)
+.env
+*.env
+!.env.example
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local SQLite Database
+*.db
+*.sqlite3
+chroma_db/
+
+# Output Reports
+reports/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+'@ | Out-File -FilePath .gitignore -Encoding utf8
